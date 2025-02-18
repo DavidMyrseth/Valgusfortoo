@@ -51,7 +51,7 @@ public partial class FigurePage : ContentPage
     {
         // Реализация метода отсутствует на изображении
     }
-
+    //
     private void Klik_boksi_peal(object? sender, TappedEventArgs e)
     {
         bw.Color = Color.FromRgb(rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255));

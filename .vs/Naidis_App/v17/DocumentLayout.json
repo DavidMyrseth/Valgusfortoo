@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|c:\\users\\opilane\\source\\repos\\valgusfortoo\\figurepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|solutionrelative:figurepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|c:\\users\\opilane\\source\\repos\\valgusfortoo\\stepper_slider.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|solutionrelative:stepper_slider.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|c:\\users\\opilane\\source\\repos\\valgusfortoo\\startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|solutionrelative:startpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|c:\\users\\opilane\\source\\repos\\valgusfortoo\\valgusfloor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7618D957-CA91-4AB2-859B-7BD41E0F0F7F}|Naidis_App.csproj|solutionrelative:valgusfloor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FigurePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\FigurePage.xaml.cs",
+              "RelativeDocumentMoniker": "FigurePage.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\FigurePage.xaml.cs",
+              "RelativeToolTip": "FigurePage.xaml.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:26:20.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stepper_Slider.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\Stepper_Slider.xaml.cs",
+              "RelativeDocumentMoniker": "Stepper_Slider.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\Stepper_Slider.xaml.cs",
+              "RelativeToolTip": "Stepper_Slider.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:20:46.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Valgusfloor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\Valgusfloor.xaml.cs",
+              "RelativeDocumentMoniker": "Valgusfloor.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\Valgusfloor.xaml.cs",
+              "RelativeToolTip": "Valgusfloor.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwGIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:52:13.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\StartPage.xaml.cs",
+              "RelativeDocumentMoniker": "StartPage.xaml.cs",
+              "ToolTip": "C:\\Users\\opilane\\source\\repos\\Valgusfortoo\\StartPage.xaml.cs",
+              "RelativeToolTip": "StartPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T07:49:34.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

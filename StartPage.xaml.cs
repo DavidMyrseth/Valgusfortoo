@@ -4,20 +4,20 @@ namespace MauiApp1;
 
 public partial class StartPage : ContentPage
 {
-	public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(0), new FigurePage(1), new Valgusfloor(), new DateTimePage(),  new Stepper_Slider() , new RGB()};
-	public List<string> Tekstid = new List<string>{"Tee lahti TekstPage", "Tee lahti Figure", "Tee lahti Valgusfoor", "Tee lahti DateTime", "Tee lahti Stepper ja Slider", "Tee lahti RGB Slider" };
+	public List<ContentPage> lehed = new List<ContentPage>() { new TextPage(0), new FigurePage(1), new Valgusfloor(),  new Stepper_Slider() , new RGB()};
+	public List<string> Tekstid = new List<string>{"Tee lahti TekstPage", "Tee lahti Figure", "Tee lahti Valgusfoor", "Tee lahti Stepper ja Slider", "Tee lahti RGB Slider" };
 	ScrollView sv;
 	VerticalStackLayout vsl;
 	public StartPage()
 	{
 		Title = "Avaleht";
-		vsl = new VerticalStackLayout { BackgroundColor = Color.FromRgb(169, 169, 169) };
+		vsl = new VerticalStackLayout { BackgroundColor = Color.FromRgb(50, 50, 50) };
 		for (int i = 0; i < Tekstid.Count; i++)
 		{
 			Button nupp = new Button
 			{
 				Text = Tekstid[i],
-				BackgroundColor = Color.FromRgb(245, 255, 250),
+				BackgroundColor = Color.FromRgb(24, 119, 214),
 				TextColor = Color.FromRgb(0, 0, 0),
 				BorderWidth = 10,
 				ZIndex = i,

@@ -43,7 +43,7 @@ public partial class Stepper_Slider : ContentPage
         foreach (var item in objects)
         {
             y += 0.2f;
-            AbsoluteLayout.SetLayoutBounds(item, new Rect(0.1f, y, 200f, 100f));  // Исправлено
+            AbsoluteLayout.SetLayoutBounds(item, new Rect(0.1f, y, 200f, 100f));
             AbsoluteLayout.SetLayoutFlags(item, AbsoluteLayoutFlags.PositionProportional);
             abs.Children.Add(item);
         }
