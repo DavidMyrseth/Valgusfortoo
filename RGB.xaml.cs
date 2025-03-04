@@ -27,7 +27,7 @@ public partial class RGB : ContentPage
         box = new BoxView()
         {
             WidthRequest = 380,
-            HeightRequest = 380,
+            HeightRequest = 340,
             Margin = 20,
             Color = Colors.Black,
         };
