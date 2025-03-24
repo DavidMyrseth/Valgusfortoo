@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +15,13 @@ public partial class Valgusfloor : ContentPage
 
     public Valgusfloor()
     {
+        Button Tagasi_btn = new Button
+        {
+            Text = "Tagasi",
+            BackgroundColor = Colors.AliceBlue,
+            TextColor = Colors.Black,
+        };
+        Tagasi_btn.Clicked += Tagasi_btn_Clicked;
 
         TapGestureRecognizer tap = new TapGestureRecognizer();
         tap.Tapped += Tap_Tapped;
@@ -68,6 +75,15 @@ public partial class Valgusfloor : ContentPage
         };
         finish_btn.Clicked += Finish_Clicked;
 
+
+        Button start_night = new Button
+        {
+            Text = "Night",
+            BackgroundColor = Colors.AliceBlue,
+            TextColor = Colors.Black,
+        };
+        start_night.Clicked += Start_Clicked_night;
+
         sonad = new Label
         {
             Text = "",
@@ -78,17 +94,17 @@ public partial class Valgusfloor : ContentPage
 
         StackLayout st2 = new StackLayout
         {
-            Children = { red, yellow, green, sonad, start, finish_btn},
+            Children = { red, yellow, green, sonad, start, finish_btn, Tagasi_btn, start_night},
             BackgroundColor = Colors.DarkGray,
             WidthRequest = 200,
-            HeightRequest = 500,
+            HeightRequest = 600,
             VerticalOptions = LayoutOptions.Center,
             HorizontalOptions = LayoutOptions.Center,
             Padding = new Thickness(10),
             Spacing = 10
         };
 
-        Content = st2; // Добавление стека в контент страницы
+        Content = st2; 
     }
 
     private void Tap_Tapped(object sender, EventArgs e)
@@ -152,7 +168,7 @@ public partial class Valgusfloor : ContentPage
         {
             red.Color = Colors.Black;
             green.Color = Colors.Black;
-            yellow.Color = Color.FromRgb(255, 255, 0);  // Этот цвет равен желтому
+            yellow.Color = Color.FromRgb(255, 255, 0);
 
             await Task.Delay(500);
 
